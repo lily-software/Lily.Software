@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Light.ttf") format("truetype");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+html {
+    background: linear-gradient(0, #A501627F 20%, #D362A47F 20%, 40%,#FFFFFF7F 40%, 60%, #FF94567F 60%, 80%, #D52D007F 80%) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 32px auto;
+    width: min(90%, 700px);
+    color: #EEEEEE;
+    font-family: "Roboto", sans-serif;
+	font-weight: lighter;
+    background: #353535;
+    border-radius: 20px;
+    box-shadow: 8px 8px 5px #00000088;
+}
+
+#content {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#content > * {
+    margin: 30px 30px;
+    padding: 0;
+}
+
+#header {
+    font-size: 2.4em;
+    font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 20px;
+	text-indent: 20px;
+}
+
+#subheader {
+	margin: 0px 0px;
+	text-align: center;
+	letter-spacing: 10px;
+	text-indent: 10px;
+	font-weight: lighter;
+}
+
+#appheader {
+	float: left;
+	display: inline-block;
+	margin: 0px 0px;
+	text-align: left;
+	letter-spacing: 8px;
+	margin-left: 8px;
+	width: 70%;
+	font-weight: lighter;
+	float: left;
+}
+
+#download-btn {
+	float: right;
+	margin: 8px 8px;
+}
+
+#appdesc {
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 50%;
+	text-align: left;
+}
+
+#appver {
+	font-weight: lighter;
+	display: inline-block;
+	float: left;
+	margin-left: 8px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	letter-spacing: 8px;
+	width: 80%;
+	text-align: left;
+	color: #cccccc
+}
+
+#appdownload {
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 70%;
+	text-align: left;
+}
+
+#subcontent {
+    display: inline-block;
+    width: 85%;
+	height: auto;
+    text-align: center;
+	border-radius: 20px;
+	background-color: #282828;
+    margin: auto;
+	padding: 30px;
+	margin-bottom: 20px;
+    box-shadow: 7px 7px 5px #00000088;
+}
+
+#description {
+	letter-spacing: 5px;
+	text-indent: 5px;
+}
+
+#avatar {
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    width: min(80%, 256px);
+	background: #282828;
+    border-radius: 40%;
+}
+
+#avatar img {
+	box-sizing: border-box;
+	border-radius: 40%;
+	width: 100%;
+	height: auto;
+    position: relative;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background: linear-gradient(to bottom right, #ff99ff7f 0%, #ff3399 100%);
+}
+
+#applogo > * {
+	display: inline-block;
+	width: 20%;
+	height: auto;
+    position: relative;
+	margin-right: 5px;
+	float: left;
+    top: 5px;
+	left: 5px;
+}
+
+#socialaccounts {
+	padding-left: 0px;
+    list-style: none;
+}
+
+#socialaccounts li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#socialaccounts svg {
+    position: relative;
+    top: 9px;
+    width: 30px;
+}
+
+#socialaccounts span {
+	letter-spacing: 3px;
+}
+
+#legal {
+	color: #b3f1ff;
+	text-align: center;
+	letter-spacing: 6px;
+	text-indent: 6px;
+}
+
+a {
+    color: #474747;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
